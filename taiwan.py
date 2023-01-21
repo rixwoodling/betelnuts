@@ -125,12 +125,13 @@ def hsinchu():
             sleep( 0.1 )
         count += 1
 
-taipei()
-kaohsiung()
-taichung()
-tainan()
-taidung()
-hsinchu()
+if __name__ == '__main__':        
+    taipei()
+    kaohsiung()
+    taichung()
+    tainan()
+    taidung()
+    hsinchu()
 
 #        
 
