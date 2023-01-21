@@ -6,7 +6,8 @@ import random
 piglow.auto_update = True
 piglow.all( 0 )
 
-
+# taipei
+# 
 def taipei():
     count = 0
     while ( count < 7 ):
@@ -22,6 +23,7 @@ def taipei():
             x = x + 1
         count = count + 1
 
+# number_run
 def kaohsiung():
     count = 0
     while ( count < 6 ):
@@ -33,6 +35,7 @@ def kaohsiung():
             x = x + 1
         count = count + 1
 
+# 
 def taichung():
     v = 0
     while ( v < 2 ):
