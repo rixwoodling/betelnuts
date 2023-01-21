@@ -125,13 +125,16 @@ def hsinchu():
             sleep( 0.1 )
         count += 1
 
-if __name__ == '__main__':        
-    taipei()
-    kaohsiung()
-    taichung()
-    tainan()
-    taidung()
-    hsinchu()
+        
+def taiwan( cities ):
+    random.shuffle( cities )
+    return( cities )
+
+if __name__ == '__main__':
+    list1 = [ taipei(),kaohsiung(),taichung() ]
+    list2 = [ tainan(),taidung(),hsinchu() ]
+    cities = list1 + list2
+    taiwan( cities )
 
 #        
 
